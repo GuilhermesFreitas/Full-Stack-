@@ -1,0 +1,13 @@
+main{
+  display: flex;
+  /* " wrap" faz o display flex ocupe o espaço disponvel*/
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+main img{
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+}

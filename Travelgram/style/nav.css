@@ -1,0 +1,27 @@
+nav{
+  /*deixa um do lado do outro " display: flex;" */
+  display: flex;
+  /*Espaço entre os elementos "   justify-content: space-between; "*/
+  justify-content: space-between;
+  /*alinhar os itens*/
+  align-items: center;
+  /*tira todo espaçamento extra*/
+  line-height: 0;
+  padding-block: 20px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  padding-block: 8px;
+}
+
+nav ul li:last-child img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
