@@ -1,0 +1,16 @@
+.content-list h4{
+  margin-top: 64px;
+  color: var(--text-headline);
+  font: var(--headline);
+  margin-bottom: 2px;
+}
+.content-list h2{
+  color:var(--text-primary);
+  font: var(--text-h2);
+}
+.content-list p{
+  margin-top: 8px;
+  font: var(--paragraph);
+  color: var(--text-secondary);
+  margin-bottom: 64px;
+}

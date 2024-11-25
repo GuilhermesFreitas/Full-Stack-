@@ -1,0 +1,10 @@
+.title-page h4{
+  color: var(--text-headline);
+  font: var(--headline);
+  margin-bottom: 8px;
+}
+.title-page h1{
+  font:var(--text-h1);
+  color:var(--text-primary);
+  margin-bottom: 40px;
+}
