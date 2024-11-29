@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+:root{
+  /*principal*/
+  --color-red: #E3646E;
+  --color-purple: #BB72E9;
+  --color-blue: #3996DB;
+  --color-green: #82BC4F;
+  --color-yellow: #EABD5F;
+
+  /*Base*/
+  --gray-100: #0D0E11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2e4e9;
+
+  /*Fontes*/
+  --font-1: 'Maven Pro', sans-serif;
+  --font-2: 'Asap', sans-serif;
+  --font-3: 'Inconsolata', monospace;
+  /*ASAP*/
+  --title-lg-as:700 56px/120% var(--font-2);
+  --title-md-as: 700 24px/120% var(--font-2);
+  --title-sm-as: 700 16px/120% var(--font-2);
+  /*Inconsolata*/
+  --subtitle: 400 20px/120% var(--font-3);
+  /*Maven Pro*/
+  --text-md: 400 16px/140% var(--font-1);
+  --text-sm: 400 14px/140% var(--font-1);
+}
+
+
+

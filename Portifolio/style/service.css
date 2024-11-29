@@ -1,0 +1,60 @@
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 88px 120px 120px 120px;
+}
+
+.servicos{
+
+  color: var(--color-red);
+  font: var(--subtitle);
+  margin-bottom: 8px;
+}
+.negocio{
+  font: var(--title-md-as);
+  color: var(--gray-600);
+  margin-bottom: 56px;
+}
+
+.cards-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas iguais */
+  gap: 24px; /* Espaçamento entre os itens */
+  margin: 0 auto; /* Centraliza o grid horizontalmente */
+  padding: 16px; /* Espaçamento interno opcional */
+}
+
+.card-service {
+  width: 280px;
+  height: 155px; 
+  text-align: center;
+  border: solid 1px var(--gray-200); 
+  border-radius: 8px; 
+  padding: 20px;
+  background-color: var(--gray-100);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+/* Para alinhar os elementos internamente */
+  display: flex; 
+  flex-direction: column; /* Empilha os elementos verticalmente */
+  justify-content: center; /* Centraliza os elementos no eixo vertical */
+  align-items: start; /* Centraliza os elementos no eixo horizontal */
+}
+
+.card-service img {
+  max-width: 100px; 
+  height: auto; 
+  margin-bottom: 20px; 
+}
+
+  .card-service h4 {
+  font:var(--title-sm-as);
+  color: var(--gray-600);
+  margin-bottom: 8px;
+}
+
+  .card-service p {
+  font:var(--text-sm);
+  color: var(--gray-500);
+}
